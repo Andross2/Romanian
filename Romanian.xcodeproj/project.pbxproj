@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1982108A16CCA29A0034AA17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1982108916CCA29A0034AA17 /* main.cpp */; };
+		1982108C16CCA29A0034AA17 /* Romanian.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1982108B16CCA29A0034AA17 /* Romanian.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1982108316CCA29A0034AA17 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1982108C16CCA29A0034AA17 /* Romanian.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1982108516CCA29A0034AA17 /* Romanian */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Romanian; sourceTree = BUILT_PRODUCTS_DIR; };
+		1982108916CCA29A0034AA17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1982108B16CCA29A0034AA17 /* Romanian.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Romanian.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1982108216CCA29A0034AA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1982107A16CCA29A0034AA17 = {
+			isa = PBXGroup;
+			children = (
+				1982108816CCA29A0034AA17 /* Romanian */,
+				1982108616CCA29A0034AA17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1982108616CCA29A0034AA17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1982108516CCA29A0034AA17 /* Romanian */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1982108816CCA29A0034AA17 /* Romanian */ = {
+			isa = PBXGroup;
+			children = (
+				1982108916CCA29A0034AA17 /* main.cpp */,
+				1982108B16CCA29A0034AA17 /* Romanian.1 */,
+			);
+			path = Romanian;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1982108416CCA29A0034AA17 /* Romanian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1982108F16CCA29A0034AA17 /* Build configuration list for PBXNativeTarget "Romanian" */;
+			buildPhases = (
+				1982108116CCA29A0034AA17 /* Sources */,
+				1982108216CCA29A0034AA17 /* Frameworks */,
+				1982108316CCA29A0034AA17 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Romanian;
+			productName = Romanian;
+			productReference = 1982108516CCA29A0034AA17 /* Romanian */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1982107C16CCA29A0034AA17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Luis Eduardo Hernandez Diaz";
+			};
+			buildConfigurationList = 1982107F16CCA29A0034AA17 /* Build configuration list for PBXProject "Romanian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1982107A16CCA29A0034AA17;
+			productRefGroup = 1982108616CCA29A0034AA17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1982108416CCA29A0034AA17 /* Romanian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1982108116CCA29A0034AA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1982108A16CCA29A0034AA17 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1982108D16CCA29A0034AA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1982108E16CCA29A0034AA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1982109016CCA29A0034AA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1982109116CCA29A0034AA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1982107F16CCA29A0034AA17 /* Build configuration list for PBXProject "Romanian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1982108D16CCA29A0034AA17 /* Debug */,
+				1982108E16CCA29A0034AA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1982108F16CCA29A0034AA17 /* Build configuration list for PBXNativeTarget "Romanian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1982109016CCA29A0034AA17 /* Debug */,
+				1982109116CCA29A0034AA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1982107C16CCA29A0034AA17 /* Project object */;
+}
